@@ -1,0 +1,34 @@
+.Appendices-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Appendices {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.Appendices-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition-property:  background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Appendices-button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
