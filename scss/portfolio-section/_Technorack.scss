@@ -1,73 +1,73 @@
-.Technocrak-item:hover {
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    
-}
 
-.Technocrak-item {
-    border: 1px solid #EEE;
-    width: 370px;
-    flex-shrink: 0;
-    transition-property:  background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.Technocrack-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.Technocrak {
+.technocrak {
     padding-bottom: 94px;
-}
-.Technocrack-text-box {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1, 87;
-    letter-spacing: 0.03em;
-    color: #757575;
-    padding-top: 4px;
-}
-.box {
-    position: relative;
-    overflow: hidden;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 370px;
-    height: 294px;
-    transform: translateX(-100%);
-    background: rgba(33, 150, 243, 0.90);
-    transition: transform 250ms ease-in-out;
-}
-.box:hover .overlay {
-    transform: translateY(0);
-  }
-.overlay-text {
-    color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; 
-letter-spacing: 0.54px;
-padding-top: 63px;
-padding-bottom: 63px;
-padding-left: 24px;
-padding-right: 24px;
-}
-.Technocrak-list {
+
+    &__text-box {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1, 87;
+        letter-spacing: 0.03em;
+        color: #757575;
+        padding-top: 4px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: #212121;
+    }
+    &__item {
+        border: 1px solid #EEE;
+        width: 370px;
+        flex-shrink: 0;
+        transition-property:  background-color, box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover {
+            box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+&__list {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
-.Technocrak-div {
+&__div {
     padding-left: 24px;
     padding-bottom: 20px;
+}
+    .box {
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 370px;
+        height: 294px;
+        transform: translateX(-100%);
+        background: rgba(33, 150, 243, 0.90);
+        transition: transform 250ms ease-in-out;
+    }
+    .box:hover .overlay {
+        transform: translateY(0);
+      }
+    .overlay-text {
+        color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.54px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+
 }
