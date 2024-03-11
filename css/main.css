@@ -81,7 +81,7 @@ button {
 }
 
 .footer {
-  background: #2F303A;
+  background: #2f303a;
 }
 .footer__title {
   font-family: "Raleway";
@@ -89,7 +89,7 @@ button {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #2196f3;
 }
 .footer__span {
   font-family: "Raleway";
@@ -97,14 +97,14 @@ button {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer__adres {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   margin-top: 20px;
   width: 231px;
@@ -123,7 +123,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__mail:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 .footer__box {
   padding-left: 70px;
@@ -132,7 +132,7 @@ button {
   display: flex;
 }
 .footer__title__icon {
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -145,7 +145,7 @@ button {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
-  fill: #FFFFFF;
+  fill: #ffffff;
   margin-left: 12px;
   margin-right: 12px;
   margin-top: 12px;
@@ -163,7 +163,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer__item:hover {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 .footer__tel {
   font-weight: 400;
@@ -189,7 +189,7 @@ button {
   gap: 12px;
 }
 .footer .mailing__title {
-  color: #FFF;
+  color: #fff;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -212,7 +212,7 @@ button {
   padding-left: 16px;
 }
 .footer .mailing__button {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -220,7 +220,7 @@ button {
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
@@ -240,7 +240,7 @@ button {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #2196f3;
   padding-bottom: 25px;
   padding-top: 24px;
   text-decoration: none;
@@ -258,16 +258,16 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__mail:hover .header__contact {
-  color: #2196F3;
+  color: #2196f3;
 }
 .header__mail:hover .header__icon {
-  color: #2196F3;
+  color: #2196f3;
 }
 .header__mail:hover .header__icon-2 {
-  color: #2196F3;
+  color: #2196f3;
 }
 .header__mail:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 .header__span {
   font-family: "Raleway";
@@ -291,7 +291,7 @@ button {
 }
 .header__link::after {
   border-radius: 2px;
-  background: #2196F3;
+  background: #2196f3;
   width: 100%;
   height: 4px;
   content: "";
@@ -302,17 +302,17 @@ button {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link__link-hover__2 {
-  color: #2196F3;
+  color: #2196f3;
 }
 .header__link__link__hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 .header__link:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 .header__portfolio__border {
   border-radius: 2px;
-  background: #2196F3;
+  background: #2196f3;
   width: 100%;
   height: 4px;
   content: "";
@@ -323,7 +323,7 @@ button {
 }
 .header__link__border {
   border-radius: 2px;
-  background: #2196F3;
+  background: #2196f3;
   width: 100%;
   height: 4px;
   content: "";
@@ -380,7 +380,7 @@ button {
 }
 .header__div__box {
   height: 1px;
-  background: #ECECEC;
+  background: #ececec;
 }
 
 .advantages__details {
@@ -412,7 +412,7 @@ button {
   width: 270px;
   height: 120px;
   display: block;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 .advantages__item:nth-child(2)::before {
@@ -423,7 +423,7 @@ button {
   width: 270px;
   height: 120px;
   display: block;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 .advantages__item:nth-child(3)::before {
@@ -434,7 +434,7 @@ button {
   width: 270px;
   height: 120px;
   display: block;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 .advantages__item:nth-child(4)::before {
@@ -445,7 +445,7 @@ button {
   width: 270px;
   height: 120px;
   display: block;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -465,7 +465,7 @@ button {
 }
 .icon__link:hover {
   border-radius: 50%;
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 .icon__box {
   margin-top: -28px;
@@ -474,7 +474,7 @@ button {
 .icon__company {
   width: 106px;
   height: 60px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon__text {
@@ -493,20 +493,20 @@ button {
   width: 170px;
   height: 92px;
   border-radius: 4px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon__item:hover {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 .icon__item:hover .icon__company {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 .icon .icon__company:hover {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 .icon__list {
   display: flex;
@@ -515,7 +515,7 @@ button {
 }
 
 .img__text {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Roboto;
   font-size: 14px;
@@ -574,7 +574,7 @@ button {
   height: 581px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: #FFF;
+  background: #fff;
   transform: scale(1) rotate(360deg);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -604,7 +604,7 @@ button {
 
 .modal-input:hover {
   border-radius: 4px;
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 
 .modal-comment {
@@ -625,19 +625,19 @@ button {
 
 .modal-comment:hover {
   border-radius: 4px;
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
 
 .modal-item:hover .modal-icon-name {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal-item:hover .modal-icon-phone {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal-item:hover .modal-icon-email {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal-label {
@@ -683,7 +683,7 @@ button {
 }
 
 .modal-button {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -691,7 +691,7 @@ button {
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background: #188CE8;
+  background: #188ce8;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 52px;
   padding-right: 52px;
@@ -709,7 +709,7 @@ button {
   width: 30px;
   height: 30px;
   flex-shrink: 0;
-  background-color: #FFF;
+  background-color: #fff;
   border: 1px rgba(0, 0, 0, 0.1) solid;
   position: relative;
   left: 490px;
@@ -733,7 +733,7 @@ button {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .modal-checkbox {
@@ -781,7 +781,7 @@ button {
 }
 
 .сonditions-link {
-  color: #2196F3;
+  color: #2196f3;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -802,14 +802,14 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
   width: 696px;
 }
 .solution__button {
   border-radius: 4px;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
@@ -818,7 +818,7 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 32px;
@@ -830,7 +830,7 @@ button {
 }
 
 .team {
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 .team__title {
   font-weight: 700;
@@ -842,7 +842,7 @@ button {
   margin-bottom: 50px;
 }
 .team__item {
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team__Igor {
@@ -891,7 +891,7 @@ button {
 .team__icon {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team__list {
@@ -899,5 +899,5 @@ button {
   gap: 30px;
 }
 .team .icon__link:hover .team__icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }/*# sourceMappingURL=main.css.map */
