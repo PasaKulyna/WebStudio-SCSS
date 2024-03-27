@@ -1,12 +1,6 @@
 .img {
   &__text {
-    color: #fff;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
+    @include text($size:14px);
     padding-top: 27px;
     padding-bottom: 27px;
   }
