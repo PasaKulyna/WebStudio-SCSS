@@ -7,17 +7,44 @@
     text-transform: uppercase;
     color: $title-color;
     margin-bottom: 10px;
-    padding-top: 30px;
-    margin-top: 94px;
+    margin-top: 30px;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+      text-align: start;
+    }
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+    }
   }
 
   &__consideration {
     @include text($size:14px);
+    width: 450px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      margin: 0;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      margin: 0;
+    }
   }
 
   &__list {
-    display: flex;
-    gap: 30px;
+    // display: flex;
+    // gap: 30px;
+    
+    @media screen and (min-width: 768px) {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 30px;
+    }
   }
 
   &__item::before {
@@ -25,43 +52,67 @@
     background-image: url(../img/antenna.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     display: block;
     background-color: #f5f4fa;
     border-radius: 4px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
   &__item:nth-child(2)::before {
     content: "";
     background-image: url(../img/clock.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     display: block;
     background-color: #f5f4fa;
     border-radius: 4px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
   &__item:nth-child(3)::before {
     content: "";
     background-image: url(../img/diagram.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     display: block;
     background-color: #f5f4fa;
     border-radius: 4px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
   &__item:nth-child(4)::before {
     content: "";
     background-image: url(../img/astronaut.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     display: block;
     background-color: #f5f4fa;
     border-radius: 4px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px; 
+    }
   }
 }

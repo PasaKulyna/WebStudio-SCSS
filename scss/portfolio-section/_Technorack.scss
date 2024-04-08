@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 
   &__text-box {
-    @include text();
+    @include text($text-align: unset);
     padding-top: 4px;
   }
   &__title {

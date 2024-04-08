@@ -2,19 +2,32 @@
   &__logo {
     font-family: "Raleway";
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: $accent-color;
-    padding-bottom: 25px;
-    padding-top: 24px;
+    padding-bottom: 16px;
+    padding-top: 16px;
     text-decoration: none;
-    margin-right: 93px;
+    margin-right: 276px;
+    @media screen and (min-width:768px) {
+        margin-right: 88px;
+        padding-bottom: 26px;
+        padding-top: 26px;
+    }
+    @media screen and (min-width:1200px) {
+      margin-right: 93px;
+      font-size: 26px;
+      padding-bottom: 25px;
+      padding-top: 24px;
+  }
+      
+    
   }
   &__mail {
     color: $text-color;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.28px;
     display: flex;
@@ -33,15 +46,23 @@
     &:hover {
       color: $accent-color;
     }
+    @media screen and (min-width:1200px) {  
+      font-size: 16px;
+  }
   }
 
   &__span {
     font-family: "Raleway";
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: $title-color000;
+    color: $title-color;
+    @media screen and (min-width:1200px) {
+     
+      font-size: 26px;
+      
+  }
   }
 
   &__link {
@@ -107,38 +128,58 @@
   }
   &__icon__2 {
     fill: $text-color;
-    margin-right: 10px;
-    width: 16px;
-    height: 12px;
+    margin-right: 8px;
+    width: 14px;
+    height: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width:1200px) {
+     margin-right: 10px;
+     width: 16px;
+      height: 12px;
+  }
+   
   }
   &__icon {
     fill: $text-color;
-    margin-right: 10px;
+    margin-right: 8px;
     width: 10px;
-    height: 16px;
+    height: 14px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width:1200px) {
+      margin-right: 10px;
+       height: 16px;
+   }
+    
   }
 
   &__list {
+    display: none;
+    gap: 32px;
+    align-items: center;
+    @media screen and (min-width:768px) {
+     display: flex;
+     gap: 32px;
+     align-items: center;
+   }
+   @media screen and (min-width:1200px) {
     display: flex;
     gap: 32px;
     align-items: center;
+ }
   }
-  &__list-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
 
   &__tel {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: $text-color;
     text-decoration: none;
     font-family: "Roboto";
+    @media screen and (min-width:1200px) {
+     font-size: 14px;
+  }
   }
 
   &__nav {
@@ -146,13 +187,23 @@
   }
 
   &__list2 {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    margin-left: auto;
-    justify-content: flex-end;
+    display: none;
+    @media screen and (min-width:768px) {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+    @media screen and (min-width:1200px) {
+     display: flex;
+     gap: 32px;
+     align-items: center;
+     margin-left: auto;
+     justify-content: flex-end;
   }
-
+  }
   
 }
 .div-box {

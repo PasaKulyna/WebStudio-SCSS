@@ -1,8 +1,7 @@
-@mixin text($size: 16px,) {
-    font-weight: $font-weihgt;
+@mixin text($size: 16px, $text-align: center) {
     font-size: $size;
     line-height: 1.18;
-    text-align: center;
+    text-align: $text-align;
     letter-spacing: 0.03em;
     color: $text-color;
 }
