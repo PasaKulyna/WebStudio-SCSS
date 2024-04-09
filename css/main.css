@@ -564,6 +564,8 @@ button {
     align-items: center;
     margin-left: auto;
     justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
 
@@ -801,11 +803,13 @@ button {
   }
 }
 .img__text {
-  font-size: 14px;
-  line-height: 1.18;
+  color: #FFF;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
   padding-top: 27px;
   padding-bottom: 27px;
 }

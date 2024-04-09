@@ -213,6 +213,8 @@
      align-items: center;
      margin-left: auto;
      justify-content: flex-end;
+     flex-direction: row;
+     flex-wrap: nowrap;
   }
   }
   
