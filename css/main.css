@@ -85,16 +85,6 @@ button {
   padding-bottom: 60px;
 }
 
-.header-portfolio {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.footer-portfolio {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .footer {
   background: #2f303a;
 }
@@ -149,6 +139,23 @@ button {
     margin-right: 0;
   }
 }
+.footer__mail-2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.footer__mail-2:hover {
+  color: #2196F3;
+}
 .footer__mail {
   font-weight: 400;
   font-size: 14px;
@@ -179,6 +186,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__box {
     padding-left: 70px;
+    padding-bottom: 0;
   }
 }
 .footer__container {
@@ -190,6 +198,7 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__container {
     flex-wrap: nowrap;
+    align-items: center;
   }
 }
 .footer__title__icon {
@@ -258,6 +267,12 @@ button {
 .footer__div__container {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer__div__container {
+    text-align: unset;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer .mailing {
@@ -574,6 +589,15 @@ button {
   background: #ececec;
 }
 
+.advantages {
+  padding-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .advantages {
+    padding-bottom: 118px;
+    padding-top: 94px;
+  }
+}
 .advantages__details {
   font-weight: 700;
   font-size: 14px;

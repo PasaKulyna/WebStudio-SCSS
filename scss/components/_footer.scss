@@ -49,6 +49,23 @@
       margin-right: 0;
      }
   }
+  &__mail-2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    &:hover {
+      color: $accent-color;
+    } 
+  }
   &__mail {
     font-weight: 400;
     font-size: 14px;
@@ -59,16 +76,17 @@
     margin-top: 9px;
     margin-bottom: 9px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: auto;
+    margin-right: auto;
     &:hover {
       color: $accent-color;
     } 
-    margin-left: auto;
-    margin-right: auto;
     @media screen and (min-width:1200px) {
      margin-left: 0;
      margin-right: 0;
      }
   }
+
 
   &__box {
     @media screen and (min-width:768px) {
@@ -77,6 +95,7 @@
       }
     @media screen and (min-width:1200px) {
      padding-left: 70px;
+     padding-bottom: 0;
      }
   }
 
@@ -87,6 +106,7 @@
     justify-content: center;
     @media screen and (min-width:1200px) {
     flex-wrap: nowrap;
+    align-items: center;
      }
   }
   &__title__icon {
@@ -156,6 +176,10 @@
   &__div__container {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+      text-align: unset;
+    }
   }
   .mailing {
     @media screen and (min-width:1200px) {

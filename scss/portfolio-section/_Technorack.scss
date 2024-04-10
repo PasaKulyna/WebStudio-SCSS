@@ -14,7 +14,8 @@
   }
   &__item {
     border: 1px solid #eee;
-    width: 370px;
+    width: 100%;
+    max-width: 450px;
     flex-shrink: 0;
     transition-property: background-color, box-shadow;
     transition-duration: 250ms;

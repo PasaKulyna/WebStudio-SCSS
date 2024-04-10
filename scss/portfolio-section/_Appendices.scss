@@ -1,6 +1,9 @@
 .appendices {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
+  @media screen and (min-width: 480px) {
+    padding-bottom: 40px;
+  }
   @media screen and (min-width: 768px) {
     padding-bottom: 30px;
   }
@@ -13,7 +16,7 @@
     gap: 8px;
     // justify-content: center;
     flex-wrap: wrap;
-    width: 375px;
+    // width: 375px;
     height: 91px;
     @media screen and (min-width: 768px) {
       justify-content: center;
