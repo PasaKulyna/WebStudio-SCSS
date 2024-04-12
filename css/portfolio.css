@@ -89,6 +89,7 @@ button {
   height: 40px;
   fill: #000000;
   margin-top: 10px;
+  margin-left: auto;
 }
 @media screen and (min-width: 768px) {
   .header .header-menu {
@@ -105,7 +106,6 @@ button {
   padding-bottom: 16px;
   padding-top: 16px;
   text-decoration: none;
-  margin-right: 276px;
 }
 @media screen and (min-width: 768px) {
   .header__logo {
@@ -481,6 +481,11 @@ button {
   color: #2196F3;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .footer__title {
+    margin-right: 124px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__title {
     font-size: 26px;
@@ -508,13 +513,14 @@ button {
   color: #ffffff;
   text-decoration: none;
   margin-top: 20px;
-  width: 231px;
-  height: 21px;
   flex-shrink: 0;
-  margin-left: 124px;
-  margin-right: 124px;
   display: block;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer__adres {
+    margin-right: 124px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer__adres {
@@ -522,23 +528,6 @@ button {
     margin-left: 0;
     margin-right: 0;
   }
-}
-.footer__mail-2 {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  margin-top: 9px;
-  margin-bottom: 9px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-.footer__mail-2:hover {
-  color: #2196F3;
 }
 .footer__mail {
   font-weight: 400;
@@ -550,11 +539,14 @@ button {
   margin-top: 9px;
   margin-bottom: 9px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: auto;
-  margin-right: auto;
 }
 .footer__mail:hover {
   color: #2196F3;
+}
+@media screen and (min-width: 768px) {
+  .footer__mail {
+    margin-right: 124px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer__mail {
@@ -636,10 +628,13 @@ button {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  margin-left: 124px;
-  margin-right: 124px;
   display: block;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer__tel {
+    margin-right: 124px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer__tel {

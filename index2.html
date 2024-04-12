@@ -26,24 +26,20 @@
     <header class="header">
       <div class="container header__container">
         <nav class="header__nav">
+       
           <a class="header__logo" href="index.html"
             >Web<span class="header__span">Studio</span></a
           >
+          <svg class="header-menu">
+            <use href="./img/symbol-defs.svg#header-menu"></use>
+        </svg>
           <ul class="header__list">
-            <li class="header__item">
-              <a class="header__link" href="./index.html">Студія</a>
+            
+            <li class="header__item"><a class="header__link" href="#">Студія</a>
+            <div class="header__link__border"></div>
             </li>
-            <li class="header__item">
-              <a
-                class="header__link header__link__hover__2"
-                href="./index2.html"
-                >Портфоліо</a
-              >
-              <div class="header__portfolio__border"></div>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Контакти</a>
-            </li>
+            <li class="header__item"><a class="header__link header__link__hover__2 " href="./index2.html">Портфоліо</a></li>
+            <li class="header__item"><a class="header__link" href="#">Контакти</a></li>
           </ul>
           <ul class="header__list2">
             <li>
@@ -261,14 +257,16 @@
         </div>
       </section>
     </main>
-    <footer class="footer" id="footer">
-      <div class="container footer__container">
-        <div class="footer-div-container">
+    <footer class="footer">
+      <div class="container footer__container" id="footer">
+        <div class="footer__div__container">  
           <h2 class="footer__title">
             Web<span class="footer__span">Studio</span>
           </h2>
           <p class="footer__adres">м. Київ, пр-т Лесі Українки, 26</p>
-          <a class="footer__mail-2" href="malitoinfo@devstudio.com" >info@devstudio.com </a>
+          <a class="footer__mail" href="malitoinfo@devstudio.com"
+            >info@devstudio.com</a
+          >
           <p><a class="footer__tel" href="#"> +38 096 111 11 11 </a></p>
         </div>
         <div class="footer__box">
@@ -296,11 +294,13 @@
             </li>
           </ul>
         </div>
+
         <div class="mailing">
+          <form action="">
           <h2 class="mailing__title">Підпишіться на розсилку</h2>
-          <div class="mailing__box">
-            <input class="mailing__input" type="text" placeholder="E-mail" />
-            <button type="button" class="mailing__button">
+          <div class="mailing__box">  
+            <input class="mailing__input" required  type="text" placeholder="E-mail" />
+            <button type="submit" class="mailing__button">
               Підписатися
               <svg class="mailing__icon" viewBox="0 0 24 24" fill="none">
                 <path
@@ -309,6 +309,7 @@
               </svg>
             </button>
           </div>
+        </form>
         </div>
       </div>
     </footer>
