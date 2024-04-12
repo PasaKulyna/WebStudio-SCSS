@@ -61,8 +61,14 @@ button {
 }
 
 .solution {
-  padding-top: 210px;
-  padding-bottom: 210px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+}
+@media screen and (min-width: 1200px) {
+  .solution {
+    padding-top: 210px;
+    padding-bottom: 210px;
+  }
 }
 
 .Advantages {
@@ -481,11 +487,6 @@ button {
   color: #2196F3;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .footer__title {
-    margin-right: 124px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer__title {
     font-size: 26px;
@@ -517,16 +518,12 @@ button {
   display: block;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .footer__adres {
-    margin-right: 124px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer__adres {
     text-align: unset;
     margin-left: 0;
     margin-right: 0;
+    width: 231px;
   }
 }
 .footer__mail {
@@ -542,11 +539,6 @@ button {
 }
 .footer__mail:hover {
   color: #2196F3;
-}
-@media screen and (min-width: 768px) {
-  .footer__mail {
-    margin-right: 124px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .footer__mail {
@@ -631,11 +623,6 @@ button {
   display: block;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .footer__tel {
-    margin-right: 124px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer__tel {
     text-align: unset;
@@ -648,9 +635,22 @@ button {
   flex-direction: column;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .footer__div__container {
+    margin-right: 124px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__div__container {
     text-align: unset;
+  }
+}
+.footer .mailing {
+  padding-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer .mailing {
+    padding-top: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -679,8 +679,7 @@ button {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  padding-bottom: 20px;
-  padding-top: 60px;
+  margin-bottom: 20px;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {

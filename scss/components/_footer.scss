@@ -8,9 +8,6 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: $accent-color;
-    @media screen and (min-width:768px) {
-    margin-right: 124px;
-     }
     @media screen and (min-width: 1200px) {
       font-size: 26px;
      text-align: unset;
@@ -42,13 +39,11 @@
     flex-shrink: 0; 
     display: block;
     text-align: center;
-    @media screen and (min-width:768px) {
-    margin-right: 124px;
-     }
     @media screen and (min-width:1200px) {
       text-align: unset;
       margin-left: 0;
       margin-right: 0;
+      width: 231px; 
      }
   }
   &__mail {
@@ -64,9 +59,6 @@
     &:hover {
       color: $accent-color;
     } 
-    @media screen and (min-width:768px) {
-    margin-right: 124px;
-     }
     @media screen and (min-width:1200px) {
      margin-left: 0;
      margin-right: 0;
@@ -151,9 +143,6 @@
     text-decoration: none;
     display: block;
     text-align: center;
-    @media screen and (min-width:768px) {
-    margin-right: 124px;
-     }
     @media screen and (min-width:1200px) {
       text-align: unset;
       margin-left: 0;
@@ -164,11 +153,18 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    @media screen and (min-width: 768px) {
+      margin-right: 124px;
+    }
     @media screen and (min-width: 1200px) {
       text-align: unset;
     }
   }
   .mailing {
+    padding-top: 60px;
+    @media screen and (min-width: 768px) {
+      padding-top: 0; 
+    }
     @media screen and (min-width:1200px) {
      margin-left: 93px;
      }
@@ -192,8 +188,7 @@
       font-weight: 700;
       letter-spacing: 0.42px;
       text-transform: uppercase;
-      padding-bottom: 20px;
-      padding-top: 60px;
+      margin-bottom: 20px;
       text-align: center;
       @media screen and (min-width:1200px) {
         text-align: unset;
