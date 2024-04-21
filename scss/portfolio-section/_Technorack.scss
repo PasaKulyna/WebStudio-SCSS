@@ -3,7 +3,7 @@
 
   &__text-box {
     @include text($text-align: unset);
-    padding-top: 4px;
+    margin-top: 4px;
   }
   &__title {
     font-weight: 700;

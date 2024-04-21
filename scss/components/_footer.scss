@@ -69,18 +69,16 @@
   &__box {
     @media screen and (min-width:768px) {
       // padding-left:165px;
-      padding-bottom: 102px;
+      margin-bottom: 102px;
       }
     @media screen and (min-width:1200px) {
-     padding-left: 70px;
-     padding-bottom: 0;
+     margin-bottom: 0;
      }
   }
 
   &__container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     @media screen and (min-width:1200px) {
     flex-wrap: nowrap;
@@ -95,12 +93,11 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    margin-top: 12px;
+    margin-top: 60px;
     text-align: center;
-    padding-top: 60px;
     @media screen and (min-width:1200px) {
       text-align: unset;
-      padding-top: 0;
+      margin-top: 0;
      }
   }
 

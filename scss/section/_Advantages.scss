@@ -26,6 +26,7 @@
     @include text($size:14px, $text-align: unset);
     width: 100%;
     margin-bottom: 30px;
+    line-height: 24px;
     @media screen and (min-width: 768px) {
       width: 354px;
       margin: 0;

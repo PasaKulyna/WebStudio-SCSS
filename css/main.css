@@ -85,6 +85,12 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (max-width: 768px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .footer {
   padding-top: 60px;
@@ -164,19 +170,17 @@ button {
 }
 @media screen and (min-width: 768px) {
   .footer__box {
-    padding-bottom: 102px;
+    margin-bottom: 102px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__box {
-    padding-left: 70px;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 .footer__container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
 }
 @media screen and (min-width: 1200px) {
@@ -193,14 +197,13 @@ button {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  margin-top: 12px;
+  margin-top: 60px;
   text-align: center;
-  padding-top: 60px;
 }
 @media screen and (min-width: 1200px) {
   .footer__title__icon {
     text-align: unset;
-    padding-top: 0;
+    margin-top: 0;
   }
 }
 .footer__icon {
@@ -621,6 +624,7 @@ button {
   color: #757575;
   width: 100%;
   margin-bottom: 30px;
+  line-height: 24px;
 }
 @media screen and (min-width: 768px) {
   .advantages__consideration {
@@ -735,6 +739,7 @@ button {
 
 .icon {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .icon__box {
   display: flex;
@@ -804,7 +809,6 @@ button {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  padding-bottom: 60px;
   justify-content: center;
 }
 @media screen and (min-width: 1200px) {
@@ -1162,7 +1166,6 @@ button {
 .team__item {
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .team__item {
@@ -1233,4 +1236,15 @@ button {
 }
 .team .icon__link:hover .team__icon {
   fill: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .team .item-header {
+    position: relative;
+    right: 7px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team .item-header {
+    right: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

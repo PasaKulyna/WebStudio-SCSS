@@ -84,6 +84,12 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (max-width: 768px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .footer {
   padding-top: 60px;
@@ -398,7 +404,7 @@ button {
   text-align: unset;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-top: 4px;
+  margin-top: 4px;
 }
 .technocrak__title {
   font-weight: 700;
@@ -548,19 +554,17 @@ button {
 }
 @media screen and (min-width: 768px) {
   .footer__box {
-    padding-bottom: 102px;
+    margin-bottom: 102px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__box {
-    padding-left: 70px;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 .footer__container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
 }
 @media screen and (min-width: 1200px) {
@@ -577,14 +581,13 @@ button {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  margin-top: 12px;
+  margin-top: 60px;
   text-align: center;
-  padding-top: 60px;
 }
 @media screen and (min-width: 1200px) {
   .footer__title__icon {
     text-align: unset;
-    padding-top: 0;
+    margin-top: 0;
   }
 }
 .footer__icon {
