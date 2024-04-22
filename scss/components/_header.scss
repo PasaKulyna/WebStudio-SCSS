@@ -1,4 +1,10 @@
 .header {
+  .header-item {
+    margin-right: 15px;
+    @media screen and (min-width: 1200px) {
+      margin-right: 0;
+  }
+  }
   .header-menu {
     width: 40px;
     height: 40px;
