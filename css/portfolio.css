@@ -110,11 +110,17 @@ button {
   fill: #000000;
   margin-top: 10px;
   margin-left: auto;
+  background-color: white;
 }
 @media screen and (min-width: 768px) {
   .header .header-menu {
     display: none;
   }
+}
+.header .header-icon-open {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
 }
 .header__logo {
   font-family: "Raleway";
@@ -335,10 +341,28 @@ button {
   background: #ececec;
 }
 
+.is-open {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header-svg {
+  width: 40px;
+  height: 40px;
+  fill: #000;
+}
+
 .mobile {
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
-  background: #FFF;
+  z-index: 10;
+  background: #fff;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.0392156863), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
   padding-bottom: 48px;
   padding-top: 48px;
@@ -351,7 +375,7 @@ button {
   left: 425px;
 }
 .mobile__button {
-  background-color: #FFF;
+  background-color: #fff;
 }
 .mobile__company {
   display: flex;
@@ -360,7 +384,7 @@ button {
   margin-top: 64px;
 }
 .mobile__company__text {
-  color: #2196F3;
+  color: #2196f3;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
@@ -372,13 +396,13 @@ button {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin-top: 306px;
 }
 .mobile__list {
   margin-left: 30px;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-bottom: 302px;
 }
 .mobile__box__text {
   color: #212121;
@@ -388,10 +412,10 @@ button {
   letter-spacing: 0.8px;
 }
 .mobile__box__text:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 .mobile .mobile-tel {
-  color: #2196F3;
+  color: #2196f3;
   font-family: Roboto;
   font-size: 34px;
   font-weight: 500;
