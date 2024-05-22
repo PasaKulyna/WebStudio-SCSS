@@ -3,13 +3,13 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../img/hero-background-mobile@1x.jpg);
+    url(../img/hero-background-mobile@1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../../img/hero-background-mobile@2x.jpg);
+      background-image: url(../img/hero-background-mobile@2x.jpg);
     }
  
   @media screen and (min-width: 768px) {
