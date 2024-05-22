@@ -1222,22 +1222,22 @@ button {
 }
 @media screen and (min-width: 768px) {
   .solution {
-    background-image: url(../../img/hero-background-tablet@1x.jpg);
+    background-image: url(../img/hero-background-tablet@1x.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .solution {
-    background-image: url(../../img/hero-backgroun-tablet@2x.jpg);
+    background-image: url(../img/hero-backgroun-tablet@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .solution {
-    background-image: url(../../img/hero-backgroun-desktop@1x.jpg);
+    background-image: url(../img/hero-backgroun-desktop@1x.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .solution {
-    background-image: url(../../img/hero-backgroun-desktop@2x.jpg);
+    background-image: url(../img/hero-backgroun-desktop@2x.jpg);
   }
 }
 .solution__title {
